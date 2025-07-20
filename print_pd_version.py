@@ -1,9 +1,11 @@
 import pandas as pd
 import sys
 import os
+import torch
 
 def main():
-    print("pandsas version:", pd.__version__)
+    print("pandas version:", pd.__version__)
+    print("torch version:", torch.__version__)
 
 if __name__ == "__main__":
     main()
